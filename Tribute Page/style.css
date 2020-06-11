@@ -1,0 +1,61 @@
+
+body {
+    font-family: Lato;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 32px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#img-div {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+
+.image {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: whitesmoke;
+}
+
+#img-div:hover .overlay {
+    opacity: 0.75;
+}
+
+.text {
+    color: #6B6565;
+    font-size: 64px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.info {
+    margin-left: 5%;
+    margin-right: 5%;
+}
