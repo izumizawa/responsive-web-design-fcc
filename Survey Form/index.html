@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <title>Badminton Championship sign up</title>
+</head>
+
+<body>
+    <div class="div-badminton">
+        <h1 id="title">sign up to</h1>
+
+        <div class="div-form">
+            <p id="description">
+                our badminton championship
+            </p>
+            <form name="signup" id="survey-form">
+                <label for="name-label">tell us your name</label><br>
+                <input type="text" id="name" name="name" placeholder="Jane Doe"><br><br>
+                    
+                <label for="email-label">what's your e-mail?</label><br>
+                <input type="email" id="email" name="email" placeholder="jane.doe@example.com"><br><br>
+                    
+                <label for="origin-label">where are you from?</label><br>
+                <select id="dropdown" name="origin" placeholder="Rio de Janeiro, Brazil"><br>
+                    <option value="Rio">Rio de Janeiro, Brazil</option>
+                    <option value="NYC">New York, USA</option>
+                    <option value="Oslo">Oslo, Norway</option>
+                    <option value="Bali">Bali, Indonesia</option>
+                    </select><br><br>
+                    
+                <label for="number-label">how old are you?</label><br>
+                <input type="number" id="number" name="number" min="14" max="60" placeholder="14"><br><br>
+                    
+                <label for="event-label">have you ever played in a championship?</label><br>
+                <input type="radio" id="y" name="y" value="y">
+                <label for="y-label">Yes, I have</label><br>
+                <input type="radio" id="n" name="n" value="n">
+                <label for="n-label">No, I haven't</label><br><br>
+                    
+                <label for="event-label">select event:</label><br>
+                <input type="checkbox" id="gs" name="gs" value="gs">
+                <label for="gs-label">Golden Singles</label><br>
+                <input type="checkbox" id="ss" name="ss" value="ss">
+                <label for="ss-label">Silver Singles</label><br>
+                <input type="checkbox" id="gd" name="gd" value="gd">
+                <label for="gd-label">Golden Doubles</label><br>
+                <input type="checkbox" id="sd" name="sd" value="sd">
+                <label for="sd-label">Silver Doubles</label><br><br>
+                    
+                <label for="comment-label">any doubts?</label><br>
+                <textarea id="dbt" name="dbt" placeholder="soon we will answer your questions, please check your e-mail"></textarea>
+                <br><br>
+                    
+                <button type="button" id="submit">submit!</button>
+
+            </form>
+        </div>
+    </div>
+
+</body>

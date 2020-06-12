@@ -1,0 +1,115 @@
+
+body {
+    background-color: #E8FFF5;
+    background-image: url(../images/bg.svg);
+    background-position: right-top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: Raleway;
+    font-size: 96px;
+    font-weight: normal;
+    color: #222831;
+    margin-bottom: -6%;
+    margin-left: -5%;
+}
+
+p {
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: normal;
+    color: #222831;
+    padding-top: 10%;
+    text-align: center;
+    margin-top: 0;
+}
+
+.div-form {
+    background-color: white;
+    width: 75%;
+    height: auto;
+    padding-top: 0;
+    margin-bottom: 10%;
+}
+
+.div-badminton {
+    width: 50%;
+    height: auto;
+    margin-left: 50%;
+}
+
+form {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: Raleway;
+    font-size: 18px;
+}
+
+input {
+    background-color: #E8FFF5;
+    font-family: Raleway;
+    text-align: left;
+    font-size: 14px;
+    padding: 2% 2% 2% 2%;
+    box-sizing: border-box;
+    border: none;
+}
+
+input#name {
+    width: 100%;
+    max-width: 475px;
+    height: 40px;;
+}
+
+input#email {
+    width: 100%;
+    max-width: 475px;
+    height: 40px;;
+}
+
+input#number {
+    width: 100%;
+    max-width: 475px;
+    height: 40px;;
+}
+
+textarea {
+    font-family: Raleway;
+    padding-left: 2%;
+    width: 100%;
+    max-width: 475px;
+}
+
+select {
+    font-family: Raleway;
+    font-size: 14px;
+    padding-left: 2%;
+    background-color: #E8FFF5;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+select#dropdown {
+    background-color: #E8FFF5;
+    width: 100%;
+    max-width: 475px;
+    border: none;
+}
+
+button {
+    font-family: Raleway;
+    font-size: 36px;
+    background-color: #8EF6CB;
+    padding: 2% 10% 2% 10%;
+    margin-left: 50%;
+    margin-bottom: 10%;
+    border: none;
+}
+
+button:hover {
+    transition: background-color 0.5s ease-in-out;
+    background-color: #00A29D;
+    color: #F4F4F4;
+}
