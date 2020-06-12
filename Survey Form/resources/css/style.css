@@ -1,4 +1,4 @@
-
+/* the background image is here */
 body {
     background-color: #E8FFF5;
     background-image: url(../images/bg.svg);
@@ -26,6 +26,7 @@ p {
     margin-top: 0;
 }
 
+/* white div with form */
 .div-form {
     background-color: white;
     width: 75%;
@@ -40,6 +41,7 @@ p {
     margin-left: 50%;
 }
 
+/* beginning of the form */
 form {
     padding-left: 10%;
     padding-right: 10%;
