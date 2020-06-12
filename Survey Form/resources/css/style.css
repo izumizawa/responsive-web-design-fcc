@@ -115,3 +115,15 @@ button:hover {
     background-color: #00A29D;
     color: #F4F4F4;
 }
+/* end of the form */
+
+/* images */
+img#peteca {
+    margin-left: 55%;
+    margin-top: -50%;
+    
+}
+
+img#raquete {
+    margin-top: -50%;
+}
